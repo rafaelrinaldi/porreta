@@ -1,0 +1,35 @@
+{
+  "name": "porreta",
+  "version": "1.0.0",
+  "description": "Get funny Brazilian Portuguese words.",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafaelrinaldi/porreta.git"
+  },
+  "keywords": [
+    "word",
+    "words",
+    "list",
+    "array",
+    "random",
+    "brazilian",
+    "portuguese",
+    "funny"
+  ],
+  "author": "Rafael Rinaldi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rafaelrinaldi/porreta/issues"
+  },
+  "homepage": "https://github.com/rafaelrinaldi/porreta#readme",
+  "dependencies": {
+    "lodash": "^3.10.1"
+  },
+  "devDependencies": {
+    "tape": "^4.2.0"
+  }
+}
