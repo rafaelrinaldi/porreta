@@ -9,6 +9,7 @@
   "balacobaco",
   "banguela",
   "batuta",
+  "bergamota",
   "berimbau",
   "bicudo",
   "bilboque",
@@ -77,7 +78,7 @@
   "maroca",
   "meleca",
   "menisquencia",
-  "mentecapto"
+  "mentecapto",
   "migué",
   "mingau",
   "mixuruca",
@@ -113,8 +114,12 @@
   "sopapo",
   "sovaco",
   "sunga",
+<<<<<<< HEAD
   "suvina",
   "tacobol",
+=======
+  "tagarela",
+>>>>>>> upstream/master
   "tanga",
   "teta",
   "titela",
