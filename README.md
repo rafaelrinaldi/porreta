@@ -1,6 +1,6 @@
 # porreta [![Build Status](https://travis-ci.org/rafaelrinaldi/porreta.svg?branch=master)](https://travis-ci.org/rafaelrinaldi/porreta)
 
-> Get funny Brazilian Portuguese words.
+> Get funny words in Brazilian Portuguese.
 
 <sup>Inspired by [`superb`](http://github.com/sindresorhus/superb)</sup>
 
