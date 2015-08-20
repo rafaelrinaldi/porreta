@@ -16,6 +16,7 @@ Valid words must follow these simple rules:
 2. They must be unique (check if they're not present on the list already).
 3. They must be an actual funny word in Brazilian Portuguese (pt-br).
 4. They cannot contain [non-printable ASCII chars](http://en.wikipedia.org/wiki/ASCII#ASCII_printable_characters).
+5. They must follow `hyphen-case` naming.
 
 ## General
 
