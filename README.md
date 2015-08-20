@@ -4,6 +4,8 @@
 
 <sup>Inspired by [`superb`](http://github.com/sindresorhus/superb)</sup>
 
+:warning: "porreta" is a word commonly used on the northeast of Brazil to indicate something that is awesome.
+
 ## Install
 
 ```sh

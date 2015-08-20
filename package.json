@@ -1,10 +1,11 @@
 {
   "name": "porreta",
-  "version": "1.2.0",
+  "version": "1.4.0",
   "description": "Get funny words in Brazilian Portuguese.",
   "main": "index.js",
   "scripts": {
-    "test": "tape test.js"
+    "lint": "jsonlint -q words.json",
+    "test": "npm run lint && tape test.js"
   },
   "repository": {
     "type": "git",
@@ -30,6 +31,8 @@
     "lodash": "^3.10.1"
   },
   "devDependencies": {
+    "jsonlint": "^1.6.2",
+    "non-ascii": "^1.0.0",
     "tape": "^4.2.0"
   }
 }
