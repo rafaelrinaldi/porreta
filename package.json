@@ -4,8 +4,11 @@
   "description": "Get funny words in Brazilian Portuguese.",
   "main": "index.js",
   "scripts": {
-    "lint": "jsonlint -q words.json",
-    "test": "npm run lint && tape test.js"
+    "sort": "./bin/sort words.json",
+    "lint-json": "jsonlint -q words.json",
+    "lint": "eslint index.js scripts/*.js",
+    "test": "npm run lint-json && npm run lint && tape test.js",
+    "prepublish": "npm run sort && git commit words.json -m ':nail_care: Words are now alphabetically ordered.' && git push origin master"
   },
   "repository": {
     "type": "git",
@@ -17,6 +20,7 @@
     "list",
     "array",
     "random",
+    "brazil",
     "brazilian",
     "portuguese",
     "funny"
@@ -31,6 +35,8 @@
     "lodash": "^3.10.1"
   },
   "devDependencies": {
+    "eslint": "^1.2.1",
+    "eslint-plugin-no-use-extend-native": "*",
     "jsonlint": "^1.6.2",
     "non-ascii": "^1.0.0",
     "tape": "^4.2.0"
