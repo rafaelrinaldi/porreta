@@ -1,3 +1,8 @@
+# v1.5.0 (2015/08/21)
+
+* Improved tests by checking if words are unique.
+* Automatically sort words on pre commit hook. Closes #10.
+
 # v1.4.0 (2015/08/20)
 
 * Added `pataca` and `chinelo`. Thanks to @giuliandrimba!
