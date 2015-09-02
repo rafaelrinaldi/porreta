@@ -1,7 +1,12 @@
 'use strict';
 
-var _ = require('lodash');
-var words = require('./words.json'); 
+var words = require('./words.json');
+
+var _ = {
+  sample: function(collection) {
+    return collection[Math.floor((Math.random() * collection.length))]
+  }
+}
 
 function porreta() {
   return _.sample(words);
