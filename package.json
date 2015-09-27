@@ -6,7 +6,8 @@
   "scripts": {
     "sort": "./bin/sort words.json > sorted.json && mv sorted.json words.json",
     "lint": "jsonlint -q words.json",
-    "test": "npm run lint && tape test.js"
+    "test": "npm run lint && tape test.js",
+    "validate": "npm ls"
   },
   "repository": {
     "type": "git",
