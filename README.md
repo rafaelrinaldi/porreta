@@ -7,9 +7,9 @@
 
 <sup>Inspired by [`superb`](http://github.com/sindresorhus/superb)</sup>
 
-Currently `165` words available.
-
 :warning: "porreta" is a word commonly used on the northeast of Brazil to indicate something that is awesome.
+
+Currently `165` words available.
 
 ## Install
 
