@@ -6,7 +6,8 @@
   "scripts": {
     "sort": "./bin/sort words.json > sorted.json && mv sorted.json words.json",
     "lint": "jsonlint -q words.json",
-    "test": "npm run lint && tape test.js"
+    "test": "npm run lint && tape test.js",
+    "validate": "npm ls"
   },
   "repository": {
     "type": "git",
@@ -30,13 +31,13 @@
   },
   "homepage": "https://github.com/rafaelrinaldi/porreta#readme",
   "dependencies": {
-    "lodash": "^3.10.1"
+    "lodash": "^4.0.1"
   },
   "devDependencies": {
     "jsonlint": "^1.6.2",
     "non-ascii": "^1.0.0",
     "precommit-hook": "^3.0.0",
-    "tape": "^4.2.0"
+    "tape": "^4.4.0"
   },
   "pre-commit": [
     "sort",

@@ -1,10 +1,10 @@
 'use strict';
 
-var _ = require('lodash');
-var words = require('./words.json'); 
+var sample = require('lodash/sample');
+var words = require('./words.json');
 
 function porreta() {
-  return _.sample(words);
+  return sample(words);
 }
 
 module.exports = porreta;
