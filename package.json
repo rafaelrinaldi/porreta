@@ -7,6 +7,8 @@
     "sort": "./bin/sort words.json > sorted.json && mv sorted.json words.json",
     "lint": "jsonlint -q words.json",
     "test": "npm run lint && tape test.js",
+    "total-words": "cat words.json | sed -n '/[[:alnum:]]/p' | wc -l | sed -e 's/[[:blank:]]//g'",
+    "readme": "WORDS=$(npm run total-words -s); cat README.template | sed -e 's/{total_words}/'\"$WORDS\"'/g' > README.md",
     "validate": "npm ls"
   },
   "repository": {
