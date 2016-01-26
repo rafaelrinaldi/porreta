@@ -1,7 +1,5 @@
 # porreta
 
----
-
 [![Build Status](https://travis-ci.org/rafaelrinaldi/porreta.svg?branch=master)](https://travis-ci.org/rafaelrinaldi/porreta)
 [![Dependencies Status](https://david-dm.org/rafaelrinaldi/porreta.svg)](https://david-dm.org/rafaelrinaldi/porreta)
 
