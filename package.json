@@ -43,6 +43,7 @@
   },
   "pre-commit": [
     "sort",
-    "test"
+    "test",
+    "readme"
   ]
 }
