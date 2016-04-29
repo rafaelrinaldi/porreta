@@ -1,3 +1,143 @@
+$gradient: linear-gradient(135deg, #2e7d32 0%, #009688 100%);
+
 body {
-    background-color: honeydew;
+    font-family: "Roboto", Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, p {
+    margin: 0;
+}
+
+/* ----- Header ----- */
+
+header {
+    height: 320px;
+    background: $gradient;
+    color: #fff;
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    hgroup {
+        max-width: 425px;
+        padding: 0 10%;
+
+        h1 {
+            margin: 0;
+            font-size: 48px;
+            line-height: 48px;
+        }
+
+        h2 {
+            font-weight: 300;
+            font-size: 20px;
+            margin-top: 16px;
+        }
+
+        h3 {
+            font-size: 14px;
+            font-weight: 300;
+            color: transparentize(#fff, 0.4);
+            margin: 16px 0;
+            line-height: 150%;
+        }
+    }
+}
+
+@media all and (min-width: 640px) {
+    header {
+        height: 400px;
+
+        hgroup {
+            h1 {
+                font-size: 64px;
+                line-height: 64px;
+            }
+
+            h2 {
+                font-size: 24px;
+            }
+
+            h3 {
+                font-size: 16px;
+            }
+        }
+    }
+}
+
+/* ----- Main ----- */
+
+main {
+    max-width: 620px;
+    padding: 64px 10%;
+    color: #333;
+    margin: 0 auto;
+
+    h2 {
+        font-size: 28px;
+    }
+
+    @media all and (min-width: 640px) {
+        h2 {
+            font-size: 32px;
+        }
+    }
+
+    p {
+        margin-top: 16px;
+        color: #666;
+
+        a {
+            text-decoration: none;
+            color: #009688;
+            padding-bottom: 2px;
+            border-bottom: 1px solid transparent;
+            transition: border-color 300ms;
+
+            &:hover {
+                border-color: transparentize(#000, 0.8);
+            }
+        }
+    }
+
+    pre {
+        height: auto;
+        margin: 5px 0 6px 0;
+        .hljs {
+            background-color: #f9f9f9;
+            padding: 16px 24px;
+            border-radius: 6px;
+        }
+    }
+
+    .api {
+        margin: 16px 0 48px 0;
+        padding-left: 16px;
+        border-left: 1px solid #ebebeb;
+
+        p {
+            line-height: 150%;
+
+            .monospace {
+                font-size: 16px;
+            }
+        }
+
+        .monospace {
+            font-family: monospace;
+            font-size: 20px;
+        }
+
+        @media all and (min-width: 640px) {
+            .monospace {
+                font-size: 24px;
+            }
+        }
+
+        div.monospace:nth-child(3) {
+            margin-top: 24px;
+        }
+    }
 }
