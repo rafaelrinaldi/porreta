@@ -1,5 +1,11 @@
 $gradient: linear-gradient(135deg, #2e7d32 0%, #009688 100%);
 
+* {
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing:antialiased !important;
+    -moz-webkit-font-smoothing:antialiased !important;
+}
+
 body {
     font-family: "Roboto", Arial, sans-serif;
 }
