@@ -9,7 +9,7 @@
 
 :warning: "porreta" is a word commonly used on the northeast of Brazil to indicate something that is awesome.
 
-Currently `175` words available.
+Currently `"175"` words available.
 
 ## Install
 
