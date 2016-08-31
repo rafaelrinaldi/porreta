@@ -4,6 +4,8 @@
   "description": "Get funny words in Brazilian Portuguese.",
   "main": "index.js",
   "scripts": {
+    "precommit": "npm run build",
+    "prepush": "npm run build",
     "sort": "./bin/sort words.json > sorted.json && mv sorted.json words.json",
     "lint": "jsonlint -q words.json",
     "test": "npm run lint && tape test.js",
@@ -37,6 +39,7 @@
     "lodash": "^4.0.1"
   },
   "devDependencies": {
+    "husky": "^0.11.6",
     "jsonlint": "^1.6.2",
     "non-ascii": "^1.0.0",
     "precommit-hook": "^3.0.0",
