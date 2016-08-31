@@ -12,6 +12,9 @@
     "validate": "npm ls",
     "build": "npm run sort && npm run lint && npm run total-words && npm run readme"
   },
+  "bin": {
+    "porreta": "bin/porreta"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rafaelrinaldi/porreta.git"
